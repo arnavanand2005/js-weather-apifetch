@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Program</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="weatherform">
+        
+    <div id="input">
+        <input id="citysearch" type="text" placeholder="ENTER CITY: ">
+        <button id="search">Get Weather</button>
+    </div>
+        <div style="display: none;" id="box" >
+            <p id="name">New Delhi</p>
+            <p id="temperature">22°C</p>
+            <p id="humidity">Humid</p>
+            <p id="description">Foggy</p>
+            <p id="weatheremoji">❄️</p>
+            <p id="error">PLEASE ENTER A CITY</p>
+        </div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
